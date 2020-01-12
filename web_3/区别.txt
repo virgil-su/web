@@ -1,0 +1,14 @@
+﻿unittest前置后置:
+测试类里只能用一个前置后置,前置后置分开;
+固定函数命名,前置:setUp或+class;后置:tearDown或+class
+测试类需要继承于unittest.Test_Case
+执行需要加载用例类到套件中再执行
+不可共享,自动调用前置后置，与测试类绑定一起只能该类使用
+
+pytest前置后置:
+自定义函数,前置后置都写一个函数上(yield生成器分开,通过yield返回参数);
+自定义函数需要声明@pytest.fixture(scope="function")参数为定义前置后置等级类型class或function;
+不需要继承,只要模块，类，函数以test开头或结尾即可执行;
+pytest执行条件为当前工作目录,哪个文件执行pytest就从当前目录--子目录查找用例;
+可共享,前置后置独立,需要手动调用,共享文件必须固定模块名：conftest.py
+

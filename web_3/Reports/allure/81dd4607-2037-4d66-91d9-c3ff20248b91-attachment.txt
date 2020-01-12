@@ -1,0 +1,126 @@
+INFO     virgil:base_page.py:24 等待输入管理名--后台系统页面中元素('xpath', '//input[@name="admin_name"]')出现
+INFO     virgil:base_page.py:44 输入管理名--后台系统页面-获取元素对象: ('xpath', '//input[@name="admin_name"]')
+INFO     virgil:base_page.py:89 输入管理名--后台系统页面-元素: ('xpath', '//input[@name="admin_name"]')输入内容lemon7
+INFO     virgil:base_page.py:24 等待输入管理员密码--后台系统页面中元素('xpath', '//input[@name="admin_pwd"]')出现
+INFO     virgil:base_page.py:44 输入管理员密码--后台系统页面-获取元素对象: ('xpath', '//input[@name="admin_pwd"]')
+INFO     virgil:base_page.py:89 输入管理员密码--后台系统页面-元素: ('xpath', '//input[@name="admin_pwd"]')输入内容lemonbest
+INFO     virgil:base_page.py:24 等待输入验证码--后台系统页面中元素('xpath', '//input[@name="code"]')出现
+INFO     virgil:base_page.py:44 输入验证码--后台系统页面-获取元素对象: ('xpath', '//input[@name="code"]')
+INFO     virgil:base_page.py:89 输入验证码--后台系统页面-元素: ('xpath', '//input[@name="code"]')输入内容hapi
+INFO     virgil:base_page.py:24 等待登陆管理员--后台系统页面中元素('xpath', '//p//button')出现
+INFO     virgil:base_page.py:44 登陆管理员--后台系统页面-获取元素对象: ('xpath', '//p//button')
+INFO     virgil:base_page.py:78 登陆管理员--后台系统页面-元素: ('xpath', '//p//button')操作点击
+INFO     virgil:base_page.py:24 等待选择借款管理--后台系统页面中元素('xpath', '//div[@id="_easyui_tree_15"]//span[@class="tree-title"]')出现
+INFO     virgil:base_page.py:44 选择借款管理--后台系统页面-获取元素对象: ('xpath', '//div[@id="_easyui_tree_15"]//span[@class="tree-title"]')
+INFO     virgil:base_page.py:78 选择借款管理--后台系统页面-元素: ('xpath', '//div[@id="_easyui_tree_15"]//span[@class="tree-title"]')操作点击
+INFO     virgil:base_page.py:24 等待切换到借款ifram窗口--后台系统页面中元素('xpath', '//iframe[@id="mainFrame"]')出现
+INFO     virgil:base_page.py:44 切换到借款ifram窗口--后台系统页面-获取元素对象: ('xpath', '//iframe[@id="mainFrame"]')
+INFO     virgil:base_page.py:100 切换到借款ifram窗口--后台系统页面-元素: ('xpath', '//iframe[@id="mainFrame"]')切换ifram
+INFO     virgil:base_page.py:24 等待创建加标--加标页面中元素('xpath', '//a[@id="add"]//span[@class="l-btn-text"]')出现
+INFO     virgil:base_page.py:44 创建加标--加标页面-获取元素对象: ('xpath', '//a[@id="add"]//span[@class="l-btn-text"]')
+INFO     virgil:base_page.py:78 创建加标--加标页面-元素: ('xpath', '//a[@id="add"]//span[@class="l-btn-text"]')操作点击
+INFO     virgil:base_page.py:24 等待填写借款人--借款信息页面中元素('xpath', '//input[@id="RegName"]/following-sibling::span//input[@type="text"]')出现
+INFO     virgil:base_page.py:44 填写借款人--借款信息页面-获取元素对象: ('xpath', '//input[@id="RegName"]/following-sibling::span//input[@type="text"]')
+INFO     virgil:base_page.py:89 填写借款人--借款信息页面-元素: ('xpath', '//input[@id="RegName"]/following-sibling::span//input[@type="text"]')输入内容13800000000
+INFO     virgil:base_page.py:24 等待选择用户信息--借款信息页面中元素('xpath', '//tr[@id="datagrid-row-r2-2-0"]//div[text()="13800000000"]')出现
+INFO     virgil:base_page.py:44 选择用户信息--借款信息页面-获取元素对象: ('xpath', '//tr[@id="datagrid-row-r2-2-0"]//div[text()="13800000000"]')
+INFO     virgil:base_page.py:78 选择用户信息--借款信息页面-元素: ('xpath', '//tr[@id="datagrid-row-r2-2-0"]//div[text()="13800000000"]')操作点击
+INFO     virgil:base_page.py:24 等待填写借款标题--借款信息页面中元素('xpath', '//td//input[@name="Title"]')出现
+INFO     virgil:base_page.py:44 填写借款标题--借款信息页面-获取元素对象: ('xpath', '//td//input[@name="Title"]')
+INFO     virgil:base_page.py:89 填写借款标题--借款信息页面-元素: ('xpath', '//td//input[@name="Title"]')输入内容约么
+INFO     virgil:base_page.py:24 等待填写利息--借款信息页面中元素('xpath', '//td//input[@name="LoanRate"]')出现
+INFO     virgil:base_page.py:44 填写利息--借款信息页面-获取元素对象: ('xpath', '//td//input[@name="LoanRate"]')
+INFO     virgil:base_page.py:89 填写利息--借款信息页面-元素: ('xpath', '//td//input[@name="LoanRate"]')输入内容10
+INFO     virgil:base_page.py:24 等待借款期限--借款信息页面中元素('xpath', '//td//input[@name="LoanTerm"]')出现
+INFO     virgil:base_page.py:44 借款期限--借款信息页面-获取元素对象: ('xpath', '//td//input[@name="LoanTerm"]')
+INFO     virgil:base_page.py:89 借款期限--借款信息页面-元素: ('xpath', '//td//input[@name="LoanTerm"]')输入内容2
+INFO     virgil:base_page.py:24 等待借款额度--借款信息页面中元素('xpath', '//td//input[@name="Amount"]')出现
+INFO     virgil:base_page.py:44 借款额度--借款信息页面-获取元素对象: ('xpath', '//td//input[@name="Amount"]')
+INFO     virgil:base_page.py:89 借款额度--借款信息页面-元素: ('xpath', '//td//input[@name="Amount"]')输入内容2050000
+INFO     virgil:base_page.py:24 等待竞标期限--借款信息页面中元素('xpath', '//td//input[@name="BiddingDays"]')出现
+INFO     virgil:base_page.py:44 竞标期限--借款信息页面-获取元素对象: ('xpath', '//td//input[@name="BiddingDays"]')
+INFO     virgil:base_page.py:89 竞标期限--借款信息页面-元素: ('xpath', '//td//input[@name="BiddingDays"]')输入内容1
+INFO     virgil:base_page.py:24 等待进入风控评测页面中元素('xpath', '//span[text()="风控评测"]')出现
+INFO     virgil:base_page.py:44 进入风控评测页面-获取元素对象: ('xpath', '//span[text()="风控评测"]')
+INFO     virgil:base_page.py:78 进入风控评测页面-元素: ('xpath', '//span[text()="风控评测"]')操作点击
+INFO     virgil:base_page.py:24 等待填写等级--风控评测页面中元素('xpath', '//td//input[@name="EvaluAmount"]')出现
+INFO     virgil:base_page.py:44 填写等级--风控评测页面-获取元素对象: ('xpath', '//td//input[@name="EvaluAmount"]')
+INFO     virgil:base_page.py:89 填写等级--风控评测页面-元素: ('xpath', '//td//input[@name="EvaluAmount"]')输入内容1
+INFO     virgil:base_page.py:24 等待进入项目录入页面中元素('xpath', '//span[text()="项目录入"]')出现
+INFO     virgil:base_page.py:44 进入项目录入页面-获取元素对象: ('xpath', '//span[text()="项目录入"]')
+INFO     virgil:base_page.py:78 进入项目录入页面-元素: ('xpath', '//span[text()="项目录入"]')操作点击
+INFO     virgil:base_page.py:24 等待输入户籍--项目录入页面中元素('xpath', '//input[@name="Native"]')出现
+INFO     virgil:base_page.py:44 输入户籍--项目录入页面-获取元素对象: ('xpath', '//input[@name="Native"]')
+INFO     virgil:base_page.py:89 输入户籍--项目录入页面-元素: ('xpath', '//input[@name="Native"]')输入内容广东
+INFO     virgil:base_page.py:24 等待输入职业--项目录入页面中元素('xpath', '//input[@name="Profession"]')出现
+INFO     virgil:base_page.py:44 输入职业--项目录入页面-获取元素对象: ('xpath', '//input[@name="Profession"]')
+INFO     virgil:base_page.py:89 输入职业--项目录入页面-元素: ('xpath', '//input[@name="Profession"]')输入内容养猪
+INFO     virgil:base_page.py:24 等待输入年龄--项目录入页面中元素('xpath', '//input[@name="Age"]')出现
+INFO     virgil:base_page.py:44 输入年龄--项目录入页面-获取元素对象: ('xpath', '//input[@name="Age"]')
+INFO     virgil:base_page.py:89 输入年龄--项目录入页面-元素: ('xpath', '//input[@name="Age"]')输入内容18
+INFO     virgil:base_page.py:24 等待提交加标--项目录入页面中元素('xpath', '//a[@id="add_do"]')出现
+INFO     virgil:base_page.py:44 提交加标--项目录入页面-获取元素对象: ('xpath', '//a[@id="add_do"]')
+INFO     virgil:base_page.py:78 提交加标--项目录入页面-元素: ('xpath', '//a[@id="add_do"]')操作点击
+INFO     virgil:base_page.py:24 等待选择借款时间页面中元素('xpath', '//tr[@id="datagrid-row-r1-2-0"]//td[@field="CreateTime"]//div')出现
+INFO     virgil:base_page.py:44 选择借款时间页面-获取元素对象: ('xpath', '//tr[@id="datagrid-row-r1-2-0"]//td[@field="CreateTime"]//div')
+INFO     virgil:base_page.py:78 选择借款时间页面-元素: ('xpath', '//tr[@id="datagrid-row-r1-2-0"]//td[@field="CreateTime"]//div')操作点击
+INFO     virgil:base_page.py:24 等待进入审核页面中元素('xpath', '//a[@id="check"]//span[@class="l-btn-text"]')出现
+INFO     virgil:base_page.py:44 进入审核页面-获取元素对象: ('xpath', '//a[@id="check"]//span[@class="l-btn-text"]')
+INFO     virgil:base_page.py:78 进入审核页面-元素: ('xpath', '//a[@id="check"]//span[@class="l-btn-text"]')操作点击
+INFO     virgil:base_page.py:24 等待初次审核通过页面中元素('xpath', '//span[text()="审核通过"]/ancestor::a')出现
+INFO     virgil:base_page.py:44 初次审核通过页面-获取元素对象: ('xpath', '//span[text()="审核通过"]/ancestor::a')
+INFO     virgil:base_page.py:78 初次审核通过页面-元素: ('xpath', '//span[text()="审核通过"]/ancestor::a')操作点击
+INFO     virgil:base_page.py:24 等待选择借款时间页面中元素('xpath', '//tr[@id="datagrid-row-r1-2-0"]//td[@field="CreateTime"]//div')出现
+INFO     virgil:base_page.py:44 选择借款时间页面-获取元素对象: ('xpath', '//tr[@id="datagrid-row-r1-2-0"]//td[@field="CreateTime"]//div')
+INFO     virgil:base_page.py:78 选择借款时间页面-元素: ('xpath', '//tr[@id="datagrid-row-r1-2-0"]//td[@field="CreateTime"]//div')操作点击
+INFO     virgil:base_page.py:24 等待进入审核页面中元素('xpath', '//a[@id="check"]//span[@class="l-btn-text"]')出现
+INFO     virgil:base_page.py:44 进入审核页面-获取元素对象: ('xpath', '//a[@id="check"]//span[@class="l-btn-text"]')
+INFO     virgil:base_page.py:78 进入审核页面-元素: ('xpath', '//a[@id="check"]//span[@class="l-btn-text"]')操作点击
+INFO     virgil:base_page.py:24 等待再次审核通过页面中元素('xpath', '//span[text()="审核通过"]/ancestor::a')出现
+INFO     virgil:base_page.py:44 再次审核通过页面-获取元素对象: ('xpath', '//span[text()="审核通过"]/ancestor::a')
+INFO     virgil:base_page.py:78 再次审核通过页面-元素: ('xpath', '//span[text()="审核通过"]/ancestor::a')操作点击
+INFO     virgil:base_page.py:24 等待选择借款时间页面中元素('xpath', '//tr[@id="datagrid-row-r1-2-0"]//td[@field="CreateTime"]//div')出现
+INFO     virgil:base_page.py:44 选择借款时间页面-获取元素对象: ('xpath', '//tr[@id="datagrid-row-r1-2-0"]//td[@field="CreateTime"]//div')
+INFO     virgil:base_page.py:78 选择借款时间页面-元素: ('xpath', '//tr[@id="datagrid-row-r1-2-0"]//td[@field="CreateTime"]//div')操作点击
+INFO     virgil:base_page.py:24 等待进入审核页面中元素('xpath', '//a[@id="check"]//span[@class="l-btn-text"]')出现
+INFO     virgil:base_page.py:44 进入审核页面-获取元素对象: ('xpath', '//a[@id="check"]//span[@class="l-btn-text"]')
+INFO     virgil:base_page.py:78 进入审核页面-元素: ('xpath', '//a[@id="check"]//span[@class="l-btn-text"]')操作点击
+INFO     virgil:base_page.py:24 等待最后审核通过页面中元素('xpath', '//span[text()="审核通过"]/ancestor::a')出现
+INFO     virgil:base_page.py:44 最后审核通过页面-获取元素对象: ('xpath', '//span[text()="审核通过"]/ancestor::a')
+INFO     virgil:base_page.py:78 最后审核通过页面-元素: ('xpath', '//span[text()="审核通过"]/ancestor::a')操作点击
+INFO     virgil:base_page.py:24 等待登陆用户--主页页面中元素('xpath', '//a[text()="登录"]')出现
+INFO     virgil:base_page.py:44 登陆用户--主页页面-获取元素对象: ('xpath', '//a[text()="登录"]')
+INFO     virgil:base_page.py:78 登陆用户--主页页面-元素: ('xpath', '//a[text()="登录"]')操作点击
+INFO     virgil:base_page.py:24 等待输入用户名--登陆页面中元素('xpath', '//input[@name="phone"]')出现
+INFO     virgil:base_page.py:44 输入用户名--登陆页面-获取元素对象: ('xpath', '//input[@name="phone"]')
+INFO     virgil:base_page.py:89 输入用户名--登陆页面-元素: ('xpath', '//input[@name="phone"]')输入内容13760246701
+INFO     virgil:base_page.py:24 等待输入密码--登陆页面中元素('xpath', '//input[@name="password"]')出现
+INFO     virgil:base_page.py:44 输入密码--登陆页面-获取元素对象: ('xpath', '//input[@name="password"]')
+INFO     virgil:base_page.py:89 输入密码--登陆页面-元素: ('xpath', '//input[@name="password"]')输入内容python
+INFO     virgil:base_page.py:24 等待登陆用户--登陆页面中元素('xpath', '//button')出现
+INFO     virgil:base_page.py:44 登陆用户--登陆页面-获取元素对象: ('xpath', '//button')
+INFO     virgil:base_page.py:78 登陆用户--登陆页面-元素: ('xpath', '//button')操作点击
+INFO     virgil:base_page.py:24 等待抢首标--主页页面中元素('xpath', '//div[@class="b-unit"][1]//div//a')出现
+INFO     virgil:base_page.py:44 抢首标--主页页面-获取元素对象: ('xpath', '//div[@class="b-unit"][1]//div//a')
+INFO     virgil:base_page.py:78 抢首标--主页页面-元素: ('xpath', '//div[@class="b-unit"][1]//div//a')操作点击
+INFO     virgil:base_page.py:24 等待获取用户未投资金币--投资页面中元素('xpath', '//div[@class="clearfix left"]//input')出现
+INFO     virgil:base_page.py:44 获取用户未投资金币--投资页面-获取元素对象: ('xpath', '//div[@class="clearfix left"]//input')
+INFO     virgil:base_page.py:55 获取用户未投资金币--投资页面-元素对象: ('xpath', '//div[@class="clearfix left"]//input')获取属性data-amount值
+INFO     virgil:base_page.py:24 等待获取总借款总金额--投资页面中元素('xpath', '//span[@class="mo_span2"]')出现
+INFO     virgil:base_page.py:44 获取总借款总金额--投资页面-获取元素对象: ('xpath', '//span[@class="mo_span2"]')
+INFO     virgil:base_page.py:67 获取总借款总金额--投资页面-元素对象: ('xpath', '//span[@class="mo_span2"]')获取文本
+INFO     virgil:base_page.py:24 等待输入投资金额--投资页面中元素('xpath', '//div[@class="clearfix left"]//input')出现
+INFO     virgil:base_page.py:44 输入投资金额--投资页面-获取元素对象: ('xpath', '//div[@class="clearfix left"]//input')
+INFO     virgil:base_page.py:89 输入投资金额--投资页面-元素: ('xpath', '//div[@class="clearfix left"]//input')输入内容500000.0
+INFO     virgil:base_page.py:24 等待点击投资页面中元素('xpath', '//button[@class="btn btn-special height_style"]')出现
+INFO     virgil:base_page.py:44 点击投资页面-获取元素对象: ('xpath', '//button[@class="btn btn-special height_style"]')
+INFO     virgil:base_page.py:78 点击投资页面-元素: ('xpath', '//button[@class="btn btn-special height_style"]')操作点击
+INFO     virgil:base_page.py:24 等待查看投资激活页面中元素('xpath', '//div[@id="layui-layer1"]//button')出现
+INFO     virgil:base_page.py:44 查看投资激活页面-获取元素对象: ('xpath', '//div[@id="layui-layer1"]//button')
+INFO     virgil:base_page.py:78 查看投资激活页面-元素: ('xpath', '//div[@id="layui-layer1"]//button')操作点击
+INFO     virgil:base_page.py:24 等待获取用户最新可用金币--个人中心页面中元素('xpath', '//li[@class="color_sub"]')出现
+INFO     virgil:base_page.py:44 获取用户最新可用金币--个人中心页面-获取元素对象: ('xpath', '//li[@class="color_sub"]')
+INFO     virgil:base_page.py:67 获取用户最新可用金币--个人中心页面-元素对象: ('xpath', '//li[@class="color_sub"]')获取文本
+INFO     virgil:base_page.py:24 等待获取剩余投资金额--投资页面中元素('xpath', '//span[@class="mo_span4"]')出现
+INFO     virgil:base_page.py:44 获取剩余投资金额--投资页面-获取元素对象: ('xpath', '//span[@class="mo_span4"]')
+INFO     virgil:base_page.py:67 获取剩余投资金额--投资页面-元素对象: ('xpath', '//span[@class="mo_span4"]')获取文本

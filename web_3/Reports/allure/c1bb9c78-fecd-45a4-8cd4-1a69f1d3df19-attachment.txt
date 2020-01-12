@@ -1,0 +1,18 @@
+INFO     virgil:base_page.py:24 等待登陆用户--主页页面中元素('xpath', '//a[text()="登录"]')出现
+INFO     virgil:base_page.py:44 登陆用户--主页页面-获取元素对象: ('xpath', '//a[text()="登录"]')
+INFO     virgil:base_page.py:78 登陆用户--主页页面-元素: ('xpath', '//a[text()="登录"]')操作点击
+INFO     virgil:base_page.py:24 等待输入用户名--登陆页面中元素('xpath', '//input[@name="phone"]')出现
+INFO     virgil:base_page.py:44 输入用户名--登陆页面-获取元素对象: ('xpath', '//input[@name="phone"]')
+INFO     virgil:base_page.py:89 输入用户名--登陆页面-元素: ('xpath', '//input[@name="phone"]')输入内容13760246701
+INFO     virgil:base_page.py:24 等待输入密码--登陆页面中元素('xpath', '//input[@name="password"]')出现
+INFO     virgil:base_page.py:44 输入密码--登陆页面-获取元素对象: ('xpath', '//input[@name="password"]')
+INFO     virgil:base_page.py:89 输入密码--登陆页面-元素: ('xpath', '//input[@name="password"]')输入内容python
+INFO     virgil:base_page.py:24 等待点击登陆--登陆页面中元素('xpath', '//button')出现
+INFO     virgil:base_page.py:44 点击登陆--登陆页面-获取元素对象: ('xpath', '//button')
+INFO     virgil:base_page.py:78 点击登陆--登陆页面-元素: ('xpath', '//button')操作点击
+INFO     virgil:base_page.py:24 等待用户中心--主页页面中元素('xpath', '//a[contains(text(),"我的帐户")]')出现
+INFO     virgil:base_page.py:44 用户中心--主页页面-获取元素对象: ('xpath', '//a[contains(text(),"我的帐户")]')
+INFO     virgil:base_page.py:78 用户中心--主页页面-元素: ('xpath', '//a[contains(text(),"我的帐户")]')操作点击
+INFO     virgil:base_page.py:24 等待进入充值--个人中心页面中元素('xpath', '//button[@class="btn1"]')出现
+INFO     virgil:base_page.py:44 进入充值--个人中心页面-获取元素对象: ('xpath', '//button[@class="btn1"]')
+INFO     virgil:base_page.py:78 进入充值--个人中心页面-元素: ('xpath', '//button[@class="btn1"]')操作点击

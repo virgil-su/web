@@ -1,0 +1,42 @@
+INFO     virgil:base_page.py:24 等待登陆用户--主页页面中元素('xpath', '//a[text()="登录"]')出现
+INFO     virgil:base_page.py:44 登陆用户--主页页面-获取元素对象: ('xpath', '//a[text()="登录"]')
+INFO     virgil:base_page.py:78 登陆用户--主页页面-元素: ('xpath', '//a[text()="登录"]')操作点击
+INFO     virgil:base_page.py:24 等待输入用户名--登陆页面中元素('xpath', '//input[@name="phone"]')出现
+INFO     virgil:base_page.py:44 输入用户名--登陆页面-获取元素对象: ('xpath', '//input[@name="phone"]')
+INFO     virgil:base_page.py:89 输入用户名--登陆页面-元素: ('xpath', '//input[@name="phone"]')输入内容13760246701
+INFO     virgil:base_page.py:24 等待输入密码--登陆页面中元素('xpath', '//input[@name="password"]')出现
+INFO     virgil:base_page.py:44 输入密码--登陆页面-获取元素对象: ('xpath', '//input[@name="password"]')
+INFO     virgil:base_page.py:89 输入密码--登陆页面-元素: ('xpath', '//input[@name="password"]')输入内容python
+INFO     virgil:base_page.py:24 等待点击登陆--登陆页面中元素('xpath', '//button')出现
+INFO     virgil:base_page.py:44 点击登陆--登陆页面-获取元素对象: ('xpath', '//button')
+INFO     virgil:base_page.py:78 点击登陆--登陆页面-元素: ('xpath', '//button')操作点击
+INFO     virgil:base_page.py:24 等待用户中心--主页页面中元素('xpath', '//a[contains(text(),"我的帐户")]')出现
+INFO     virgil:base_page.py:44 用户中心--主页页面-获取元素对象: ('xpath', '//a[contains(text(),"我的帐户")]')
+INFO     virgil:base_page.py:78 用户中心--主页页面-元素: ('xpath', '//a[contains(text(),"我的帐户")]')操作点击
+INFO     virgil:base_page.py:24 等待获取最新用户金额--个人页面中元素('xpath', '//li[@class="color_sub"]')出现
+INFO     virgil:base_page.py:44 获取最新用户金额--个人页面-获取元素对象: ('xpath', '//li[@class="color_sub"]')
+INFO     virgil:base_page.py:67 获取最新用户金额--个人页面-元素对象: ('xpath', '//li[@class="color_sub"]')获取文本
+INFO     virgil:base_page.py:24 等待进入提现页面--个人页面中元素('xpath', '//button[@class="btn2"]')出现
+INFO     virgil:base_page.py:44 进入提现页面--个人页面-获取元素对象: ('xpath', '//button[@class="btn2"]')
+INFO     virgil:base_page.py:78 进入提现页面--个人页面-元素: ('xpath', '//button[@class="btn2"]')操作点击
+INFO     virgil:base_page.py:24 等待输入提现金额--提现页面中元素('xpath', '//input[@name="money"]')出现
+INFO     virgil:base_page.py:44 输入提现金额--提现页面-获取元素对象: ('xpath', '//input[@name="money"]')
+INFO     virgil:base_page.py:89 输入提现金额--提现页面-元素: ('xpath', '//input[@name="money"]')输入内容1
+INFO     virgil:base_page.py:24 等待输入验证码--提现页面中元素('xpath', '//input[@name="verify"]')出现
+INFO     virgil:base_page.py:44 输入验证码--提现页面-获取元素对象: ('xpath', '//input[@name="verify"]')
+INFO     virgil:base_page.py:89 输入验证码--提现页面-元素: ('xpath', '//input[@name="verify"]')输入内容hapi
+INFO     virgil:base_page.py:24 等待确认提现--提现页面中元素('xpath', '//button')出现
+INFO     virgil:base_page.py:44 确认提现--提现页面-获取元素对象: ('xpath', '//button')
+INFO     virgil:base_page.py:78 确认提现--提现页面-元素: ('xpath', '//button')操作点击
+INFO     virgil:base_page.py:24 等待提现成功提示--提现成功页面中元素('xpath', '//div[text()="提现成功"]')出现
+INFO     virgil:base_page.py:44 提现成功提示--提现成功页面-获取元素对象: ('xpath', '//div[text()="提现成功"]')
+INFO     virgil:base_page.py:67 提现成功提示--提现成功页面-元素对象: ('xpath', '//div[text()="提现成功"]')获取文本
+INFO     virgil:base_page.py:24 等待返回主页--提现成功页面中元素('xpath', '//div[@class="reg-form"]//a')出现
+INFO     virgil:base_page.py:44 返回主页--提现成功页面-获取元素对象: ('xpath', '//div[@class="reg-form"]//a')
+INFO     virgil:base_page.py:78 返回主页--提现成功页面-元素: ('xpath', '//div[@class="reg-form"]//a')操作点击
+INFO     virgil:base_page.py:24 等待进入个人中心--主页页面中元素('xpath', '//a[contains(text(),"我的帐户")]')出现
+INFO     virgil:base_page.py:44 进入个人中心--主页页面-获取元素对象: ('xpath', '//a[contains(text(),"我的帐户")]')
+INFO     virgil:base_page.py:78 进入个人中心--主页页面-元素: ('xpath', '//a[contains(text(),"我的帐户")]')操作点击
+INFO     virgil:base_page.py:24 等待获取最新用户金额--个人页面中元素('xpath', '//li[@class="color_sub"]')出现
+INFO     virgil:base_page.py:44 获取最新用户金额--个人页面-获取元素对象: ('xpath', '//li[@class="color_sub"]')
+INFO     virgil:base_page.py:67 获取最新用户金额--个人页面-元素对象: ('xpath', '//li[@class="color_sub"]')获取文本
